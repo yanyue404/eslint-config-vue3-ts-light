@@ -38,7 +38,7 @@ module.exports = {
   "jsxSingleQuote": false,
   "bracketSameLine": false,
   "jsxBracketSameLine": false,
-  "trailingComma": 'none',
+  "trailingComma": "none",
 }
 ```
 
