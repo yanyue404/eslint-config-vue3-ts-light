@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-airbnb-vue3-ts",
-  "version": "0.3.1",
+  "name": "eslint-config-vue3-ts-light",
+  "version": "0.0.1",
   "description": "结合了 [airbnb](https://github.com/airbnb/javascript) 和 [prettier](https://prettier.io/) 风格规范的 eslint 配置，适用于 vue3、js、ts 项目。",
   "main": "index.js",
   "exports": {
@@ -8,20 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/woai3c/eslint-config-airbnb-vue3-ts.git"
+    "url": "git+https://github.com/yanyue404/eslint-config-vue3-ts-light.git"
   },
   "keywords": [
     "vue",
     "eslint",
     "airbnb",
-    "typescript"
+    "typescript",
+    "eslintconfig"
   ],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/woai3c/eslint-config-airbnb-vue3-ts/issues"
+    "url": "https://github.com/yanyue404/eslint-config-vue3-ts-light/issues"
   },
-  "homepage": "https://github.com/woai3c/eslint-config-airbnb-vue3-ts#readme",
+  "homepage": "https://github.com/yanyue404/eslint-config-vue3-ts-light#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

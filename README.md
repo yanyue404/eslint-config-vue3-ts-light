@@ -2,12 +2,12 @@
 
 结合了 [airbnb](https://github.com/airbnb/javascript) 和 [prettier](https://prettier.io/) 风格规范的 eslint 配置，适用于 vue3、js、ts 项目。
 
-非 vue 项目可以使用这个插件 [eslint-prettier-config-airbnb-ts](https://github.com/woai3c/eslint-config-airbnb-vue3-ts/tree/no-vue)
+非 vue 项目可以使用这个插件 [eslint-prettier-config-airbnb-ts](https://github.com/yanyue404/eslint-config-vue3-ts-light/tree/no-vue)
 
 ## 使用
 
 ```
-npm i -D eslint-config-airbnb-vue3-ts
+npm i -D eslint-config-vue3-ts-light
 ```
 
 配置 `.eslintrc.js` 文件：
@@ -20,7 +20,7 @@ module.exports = {
     node: true,
     es6: true,
   },
-  extends: ['eslint-config-airbnb-vue3-ts'],
+  extends: ['vue3-ts-light'],
   rules: {},
 }
 ```
@@ -38,7 +38,7 @@ module.exports = {
   "jsxSingleQuote": false,
   "bracketSameLine": false,
   "jsxBracketSameLine": false,
-  "trailingComma": "all"
+  "trailingComma: 'none',
 }
 ```
 
